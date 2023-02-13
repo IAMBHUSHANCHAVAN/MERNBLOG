@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&display=swap');
+.f-1{
+    font-family: 'Anton', sans-serif;
+}
+.f-w{
+    font-weight: bolder;
+    font-size: larger;
+}
+.f-l{
+    font-size: larger;
+}
+.f-2{
+font-family: 'Anton', sans-serif;
+font-family: 'Asap', sans-serif;
+}
+.w-1{
+    width: 60%;
+}
+.w-2{
+    width: 80%;
+}
+.m-a{
+    margin: auto;
+}

@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    display: flex;
+    position: relative;
+}
+.lists{
+    display: flex;
+    position: absolute;
+    right: 15%;
+}
+.nav-list{
+    list-style: none;
+    margin:0px 30px;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+.header{
+    height: 100vh;
+    background-image: url("Coordinated\ Care.png");
+    opacity: 0.8;
+}
+.left-nav{
+    width: 40%;
+    margin-top: 70px;
+}
+.right-nav{
+    margin-left: 15%;
+    cursor: pointer;
+}
+.para{
+    margin-left: 20%;
+    font-size: 100px;
+}
+.para-1{
+    margin-left: 20%;
+    font-size: larger;
+    width: 50%;
+}
+.p-typ{
+    padding-top: 20px;
+}
+.cont1-r{
+    width: 30%;
+    height: 50%;
+    /* border: 1px solid black; */
+}
+img{
+    width: fit-content;
+    max-height: 100%;
+}
+.cont1-r{
+    margin-top: 40px;
+}
+.cont1-l{
+    width: 40%;
+}
+.cont1{
+    display: flex;
+    padding: 60px;
+    background-color: white;
+}
+.h-3{
+   margin-left: 15%;
+   font-size: 5vh;
+
+}
+.main-cont{
+    background-color: aliceblue;
+}
+.foot{
+    background-color: aliceblue;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+}
