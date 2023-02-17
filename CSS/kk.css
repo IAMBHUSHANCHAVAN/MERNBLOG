@@ -1,0 +1,44 @@
+.kk-nav{
+    background-image: url("Coordinated\ Care.png");
+    height: 10vh;
+    opacity: 0.9;
+    position:sticky;
+    top: 0px;
+}
+.form{
+margin-top: 30px;
+margin-left: 25%;
+width: 50%;
+height: 80vh;
+border: 1px solid black;
+border-radius: 10px;
+background-color: darkgrey;
+box-shadow: brown;
+}
+.main_feed{
+    display: flex;
+    flex-direction: column;
+    padding: 50px ;
+}
+.inpt-fdb{
+    margin: 20px 0px;
+    width: 90%;
+    height: 25px;
+}
+h1{
+    text-align: center;
+}
+.sbt-feedback{
+    margin-top: 20px;
+    height: 30px;
+    width: auto;
+    background-color: rgb(6, 7, 7);
+    border: transparent;
+    cursor: pointer;
+}
+span{
+    color: white;
+    font-size: larger;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
