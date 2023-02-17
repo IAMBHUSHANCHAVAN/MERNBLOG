@@ -12,8 +12,8 @@ width: 50%;
 height: 80vh;
 border: 1px solid black;
 border-radius: 10px;
-background-color: darkgrey;
-box-shadow: brown;
+/* background-color: darkgrey; */
+box-shadow: 10px 10px 10px 0px grey;
 }
 .main_feed{
     display: flex;
@@ -24,6 +24,7 @@ box-shadow: brown;
     margin: 20px 0px;
     width: 90%;
     height: 25px;
+    border-radius: 5px;
 }
 h1{
     text-align: center;
