@@ -1,12 +1,14 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: azure;
 }
 .main-nav{
     display: flex;
-    /* position: relative; */
+    position: relative;
     /* position: -webkit-sticky; */
     position: sticky;
+    background-color: aqua;
     top: 0px;
     /* border: 1px solid black; */
 }
@@ -39,8 +41,9 @@ body{
 }
 .header{
     height: 100vh;
-    background-image: url("Coordinated\ Care.png");
+    /* background-image: url("Coordinated\ Care.png"); */
     opacity: 0.8;
+    width: 100%;
 }
 .left-nav{
     width: 40%;
@@ -64,7 +67,8 @@ body{
     padding-top: 20px;
 }
 .cont1-r{
-    width: 30%;
+    margin-top: 40px;
+    width: 100%;
     height: 50%;
     /* border: 1px solid black;k */
 }
@@ -73,11 +77,8 @@ img{
     max-height: 100%;
     cursor: pointer;
 }
-.cont1-r{
-    margin-top: 40px;
-}
 .cont1-l{
-    width: 40%;
+    /* width: 40%; */
 }
 .cont1{
     display: flex;
@@ -100,9 +101,9 @@ img{
     height: 10vh;
 }
 @media (max-width:1250px) {
-    .main-cont{
+    /* .main-cont{
         background-color: red;
-    }
+    } */
     .cont1{
         flex-direction: column;
     }
@@ -112,4 +113,20 @@ img{
     /* .header{
         height: 120vh;
     } */
+}
+@media (max-width:770px) {
+    .para{
+        font-size: 50px;
+    }
+    .para-1{
+        font-size: small;
+    }
+    .header{
+        height: 50vh;
+    }
+}
+@media (max-width:580px) {
+    .header{
+        width: 100%;
+    }
 }
